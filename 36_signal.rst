@@ -20,5 +20,18 @@ Construire une version de serveur basic en ligne.
 
 Héberger l'application sur Google Run ou Firebase
 
+Netlify
+*********
+Je suis tombé sur netlify comme solution de deploiement. Je m'y suis connecté via le compte GitHub diridf25.
+
+
+
+
+
+
+
+
+
+
 
 
