@@ -1,15 +1,32 @@
 Visite des issues
 ***********************
-mise à jour 240602
+mise à jour 240909
 
 
 Organisation
 =================
 Au sein du projet GCP :dett
 
+
+Outil de saisie des rapports
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 application :https://issues-de-secours-dirif.web.app/
 
 L'administation des données est faite dans le notebook : configurationIssuesSecours.ipynb
+
+Tableau de présentation des résultats
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://github.com/dirif25non-partage/rapport-issues-tunnels
+
+Cartes de localisation des issues
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://tunnels-issues-905436523946.europe-west1.run.app/
+
+Dépot d'un fichier pour enregistrer le rapport dans un bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://depot-rapports-bimestriels-905436523946.europe-west1.run.app/
+
+
 
 Prochaines étapes
 ===================
