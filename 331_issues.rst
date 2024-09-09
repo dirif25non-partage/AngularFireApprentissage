@@ -10,7 +10,8 @@ Au sein du projet GCP :dett
 
 Outil de saisie des rapports
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-application :https://issues-de-secours-dirif.web.app/
+application :https://issues-de-secours-dirif.web.app/  
+https://github.com/dirif25non-partage/issuesSecoursDiRIF  
 
 L'administation des données est faite dans le notebook : configurationIssuesSecours.ipynb
 
