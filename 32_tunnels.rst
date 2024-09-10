@@ -1,8 +1,12 @@
-Caractéristiques des tunnels (3/24)
+A METTRE A JOUR !!! Caractéristiques des tunnels (3/24)
 *************************************
+mise à jour 9/2024  LE passage sur Angular n'est pas documenté !
+
+
+
 Objectifs
 ==========
-Il s'agit de mettre à disposition sur smartphone des données (longueur, TMJA, code,nom ...) sur les tunnels et les DS.
+Il s'agit de mettre à disposition, sur smartphone, des données (longueur, TMJA, code,nom ...) sur les tunnels et les DS.
 Les utilisateurs n'ont que des droits de lecture, ce qui évite de passer par l'authentification
 et la gestion des comptes utilisateurs.
 
@@ -15,9 +19,9 @@ DS
 Pour la liste des DS, je suis parti du tableau de suivi de PBD/CL mais je constate des inconsistances, certains DS instruits ensemble sont fusionnés alors que d'autres sont dissociés.
 La logique serait de dissocier les DS instruits ensemble, de même que l'on dépose 2 dossiers différents.
 
-Les premiers champs retenus sont triCode, PCTT, Nom, Date (à mettre en ordre alphabetique).
+Les champs retenus sont  PCTT, Nom, Date de l'autorisation, Préfecture (à mettre en ordre alphabetique).
 
-Il faudrait ajouter : (Préfecture, Date de l'autorisation, Date du dépot ? ). Pour l'instant, on ne propose pas de gérer les réserves et recommandations).
+Il faudrait ajouter : (  Date du dépot ? ). Pour l'instant, on ne propose pas de gérer les réserves et recommandations).
 
 Tunnels
 """"""""""
@@ -25,24 +29,24 @@ Pour les tunnels élémentaires j'ai repris la décomposition précédente, mais
 
 A la réflexion, je pense que l'enjeu de clarifier la composition de cet échangeur pousse à considérer les bretelles commes des tunnels élémentaires.
 
-
-
 Déroulement
 =============
 Après de nombreux essais infructueux en février et mars 2024 ...
 Il s'agit de la première expérience réussie d'intégrer Angular, Matérial table et Firestore dans une application.
 Cela m'a permis de maitriser des notions pratiques de base sur la syntaxe d'Angular.
 
-Au départ, je me suis concentré sur l'objectif de gérer la base de données sur Firebase. Cela reste un bon exemple que l'on peut trouver un projet qui fonctionne sur feu2312 ici : :code:`C:\Users\spera\Videos\on\gcp\angularfire\tuns`.
+Au départ, je me suis concentré sur l'objectif de gérer la base de données sur Firebase. 
+Cela reste un bon exemple que l'on peut trouver un projet qui fonctionne sur feu2312 ici : :code:`C:\Users\spera\Videos\on\gcp\angularfire\tuns`.
 
 Ensuite, je me suis plus concentré sur le sujet du référentiel et sur la mise en forme pour le Smartphone.
 
-
 Organisation
 ==============
-En l'état l'application utilise Dash et des fichiers csv et non Angular et Firestore.
+    En l'état l'application utilise Dash et des fichiers csv et non Angular et Firestore.
 
 On utilise le compte exploit.diridf et le projet tunnels (:code:`id:tunnels-dirif`).
+
+    https://console.firebase.google.com/u/2/project/tunnels-dirif
 
 Les données d'entrées (table des DS et des tunnels) sont traitées par un notebook : `Referentiel tunnels.ipynb <https://colab.research.google.com/drive/1FDtybG180Ik4Y09r8htxegNa_KVWhzmG?authuser=4#scrollTo=t3g3QZrEk0Wd>`_. 
 
