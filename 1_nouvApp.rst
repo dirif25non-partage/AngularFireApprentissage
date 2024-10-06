@@ -50,7 +50,8 @@ Mise en place des moyens de développement
 .. code-block:: 
     
    npm install -g @angular/cli@latest
-   # Cette commande doit être exécutée à chaque utilisation de Cloud Shell car l'installation n'est pas persistante !
+   # Cette commande doit être exécutée à chaque utilisation de Cloud Shell 
+   # car l'installation n'est pas persistante !
    ng new appnom
          (lettres minuscules)
    cd appnom
