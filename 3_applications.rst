@@ -20,9 +20,20 @@ Je décrirai les outils utilisés et l'intérêt que les expériences comportent
 
 Dans certains cas, il existe une page spécifique mais plus recemment, je me contente d'un paragraphe ci-dessous qui renvoie au GitHub de l'application.
 
-speo-cap-vert2024
+Penalite-pdf
+****************
+https://github.com/ExploitIdF/penalite-pdf
+Edition d'un *certificat de pénalité*.
+
+* html2canvas
+* jspdf
+
+
+
+Speo-cap-vert2024
 *************************
 https://github.com/dirif25non-partage/speo-cap-vert2024   
+Grille de 85 photos que l'on peut affichier en grand en cliquant.
 
 * Utilisation de Grid responsive
 * Authentification anonyme
